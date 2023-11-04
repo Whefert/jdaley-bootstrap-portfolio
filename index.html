@@ -17,7 +17,7 @@
   <body>
     <!-- main logo / nav -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ms-auto">
+      <nav class="navbar navbar-expand-lg navbar-light ms-auto">
         <div class="container-fluid ps-0">
           <a class="navbar-brand" href="#"><h1>Jefferson Daley</h1></a>
           <button
@@ -43,9 +43,8 @@
               </li>
               <li class="nav-item px-1 mx-2">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link "
                   href="#contact"
-                  role="button"
                 >
                   Contact
                 </a>
@@ -91,9 +90,9 @@
               <p class="introText">
                 Software developer with over 3 years experience building
                 full-stack web and mobile applications with a range of modern
-                technologies. Front-end technologies I am most familiar with
+                Tech. Front-end Tech I am most familiar with
                 include: HTML, CSS, JavaScript, Angular and Kotlin. Backend
-                technologies I am most familiar with include: Node.js, PHP,
+                Tech I am most familiar with include: Node.js, PHP,
                 MySQL, MongoDB, Google Firebase, and Amazon Web Services (AWS).
               </p>
             </div>
@@ -110,15 +109,15 @@
             <div class="col-2 border-end border-3"><h2 class="text-end">Work</h2></div>
             <div class="col-10">
               <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="card" style="width: 100%">
-                      <img
-                        src="./images/endh_online_library.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
+                    <div class="card border-0 rounded-0 mainProject" >
+                      <div class="projectImage col-6">
+                        <img
+                          src="./images/endh_online_library.jpg"
+                          class="img-fluid "
+                          alt="EnDH Online Library"
+                        />
+                      </div>
+                      <div class="card-body col d-flex flex-column justify-content-around">
                         <h5 class="card-title">
                           Enid & Daphne Henry Foundation Online Library
                         </h5>
@@ -133,7 +132,7 @@
                           users of rental requests and notifies students about
                           approvals/rejections of their requests via email.
                         </p>
-                        <a href="#" class="text-black"
+                        <a href="#" class="text-black CTA"
                           >Learn more
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -143,34 +142,35 @@
                             <path
                               d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"
                             /></svg></a>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
-                <div class="row">
+                <div class="row mt-1">
                   <div class="col-6">
-                    <div class="card" style="width: 100%">
+                    <div class="card otherProject border-0 rounded-0 ms" >
+                      <div class="projectImage col-6">
                       <img
                         src="./images/it_department_mobile_app.jpg"
                         class="card-img-top"
-                        alt="..."
+                        alt="it_department_mobile App"
                       />
-                      <div class="card-body">
+                      </div>
+                      <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title">IT Department Mobile App</h5>
                         <p class="card-text">
-                          <strong>Technologies Used</strong>: Kotlin, Google
+                          <strong>Tech Used</strong>: Kotlin, Google
                           Firebase
                         </p>
-                        <p class="card-text">
+                        <!-- <p class="card-text">
                           <strong>Description</strong>: Online library allowing
                           students to see and request rental of books being
                           offered by the foundation. Web app also notifies admin
                           users of rental requests and notifies students about
                           approvals/rejections of their requests via email.
-                        </p>
+                        </p> -->
                         <a
                           href="https://github.com/Whefert/UCC_IT_department_app"
-                          class="text-black"
+                          class="text-black CTA"
                           >Learn more
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -184,28 +184,30 @@
                     </div>
                   </div>
                   <div class="col-6">
-                    <div class="card" style="width: 100%">
+                    <div class="card otherProject border-0 rounded-0">
+                                            <div class="projectImage col-6">
                       <img
                         src="./images/query_handling system.jpg"
                         class="card-img-top"
                         alt="..."
                       />
-                      <div class="card-body">
+                      </div>
+                      <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title">Query Handling System</h5>
                         <p class="card-text">
-                          <strong>Technologies Used</strong>: HTML, CSS,
+                          <strong>Tech Used</strong>: HTML, CSS,
                           JavaScript, PHP, MySQL
                         </p>
-                        <p class="card-text">
+                        <!-- <p class="card-text">
                           <strong>Description</strong>: Online library allowing
                           students to see and request rental of books being
                           offered by the foundation. Web app also notifies admin
                           users of rental requests and notifies students about
                           approvals/rejections of their requests via email.
-                        </p>
+                        </p> -->
                         <a
                           href="https://github.com/Whefert/queryHandlingSystem"
-                          class="text-black"
+                          class="text-black CTA"
                           >Learn more
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -219,30 +221,32 @@
                     </div>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row mt-1">
                   <div class="col-6">
-                    <div class="card" style="width: 100%">
+                    <div class="card otherProject border-0 rounded-0" >
+                      <div class="projectImage col-6">
                       <img
                         src="./images/javascript_calculator.jpg"
                         class="card-img-top"
                         alt="..."
                       />
-                      <div class="card-body">
+                      </div>
+                      <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title">JavaScript Calculator App</h5>
                         <p class="card-text">
-                          <strong>Technologies Used</strong>: HTML, CSS,
+                          <strong>Tech Used</strong>: HTML, CSS,
                           JavaScript
                         </p>
-                        <p class="card-text">
+                        <!-- <p class="card-text">
                           <strong>Description</strong>: Online library allowing
                           students to see and request rental of books being
                           offered by the foundation. Web app also notifies admin
                           users of rental requests and notifies students about
                           approvals/rejections of their requests via email.
-                        </p>
+                        </p> -->
                         <a
                           href="https://github.com/Whefert/javascriptCalculatorApp"
-                          class="text-black"
+                          class="text-black CTA"
                           >Learn more
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -256,28 +260,30 @@
                     </div>
                   </div>
                   <div class="col-6">
-                    <div class="card" style="width: 100%">
+                    <div class="card otherProject border-0 rounded-0">
+                      <div class="projectImage col-6">
                       <img
                         src="./images/endh_online_library.jpg"
                         class="card-img-top"
                         alt="..."
                       />
-                      <div class="card-body">
+                    </div>
+                      <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title">Horiseon Website Refactor</h5>
                         <p class="card-text">
-                          <strong>Technologies Used</strong>: HTML, CSS,
+                          <strong>Tech Used</strong>: HTML, CSS,
                           JavaScript
                         </p>
-                        <p class="card-text">
+                        <!-- <p class="card-text">
                           <strong>Description</strong>: Online library allowing
                           students to see and request rental of books being
                           offered by the foundation. Web app also notifies admin
                           users of rental requests and notifies students about
                           approvals/rejections of their requests via email.
-                        </p>
+                        </p> -->
                         <a
                           href="https://github.com/Whefert/horiseon-website-refactor/"
-                          class="text-black"
+                          class="text-black CTA"
                           >Learn more
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -327,7 +333,7 @@
             <div class="content">
               <h3 class="projectTitle">IT Department Mobile App</h3>
               <p class="techUsed">
-                <strong>Technologies Used</strong>: Kotlin, Google Firebase              
+                <strong>Tech Used</strong>: Kotlin, Google Firebase              
               </p>
               <p class="CTA">
                 <strong><a href="https://github.com/Whefert/UCC_IT_department_app">Learn More</a></strong>
@@ -346,7 +352,7 @@
             <div class="content">
               <h3 class="projectTitle">Query Handling System</h3>
               <p class="techUsed">
-                <strong>Technologies Used</strong>: HTML, CSS, JavaScript, PHP, MySQL
+                <strong>Tech Used</strong>: HTML, CSS, JavaScript, PHP, MySQL
               </p>
               <p class="CTA">
                 <strong><a href="https://github.com/Whefert/queryHandlingSystem">Learn More</a></strong>
@@ -365,7 +371,7 @@
             <div class="content">
               <h3 class="projectTitle">JavaScript Calculator App</h3>
               <p class="techUsed">
-                <strong>Technologies Used</strong>: HTML, CSS, JavaScript
+                <strong>Tech Used</strong>: HTML, CSS, JavaScript
               </p>
               <p class="CTA">
                 <strong><a href="https://github.com/Whefert/javascriptCalculatorApp">Learn More</a></strong>
@@ -384,7 +390,7 @@
             <div class="content">
               <h3 class="projectTitle">Horiseon Website Refactor</h3>
               <p class="techUsed">
-                <strong>Technologies Used</strong>: HTML, CSS, JavaScript
+                <strong>Tech Used</strong>: HTML, CSS, JavaScript
               </p>
               <p class="CTA">
                 <strong><a href="https://github.com/Whefert/horiseon-website-refactor/">Learn More</a></strong>
@@ -408,22 +414,14 @@
               </h2>
             </div>
             <div class="col-10">
-              <ul>
-                <li><a href="tel:123-456-7890">123-456-7890</a></li>
-                <li>
-                  <a href="mailto:jeffersondaley@gmail.com"
-                    >jeffersondaley@gmail.com</a
-                  >
-                </li>
-                <li>
-                  <a href="https://github.com/Whefert">GitHub</a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/jefferson-daley-208755b3/"
-                    >LinkedIn</a
-                  >
-                </li>
+              <ul class="list-group list-group-horizontal justify-content-between">
+                <li class="list-group-item"><a href="mailto:jeffersondaley@gmail.com">jeffersondaley@gmail.com</a
+                ></li>
+                <li class="list-group-item"><a href="https://github.com/Whefert">GitHub</a></li>
+                <li class="list-group-item"><a href="tel:123-456-7890">123-456-7890</a></li>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/jefferson-daley-208755b3/">LinkedIn</a></li>
               </ul>
+
             </div>
           </div>
         </div>        
