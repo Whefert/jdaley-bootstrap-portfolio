@@ -29,7 +29,7 @@ To view my work portfolio website, simply visit the url for the deployed applica
 
 ## Credits
 
-N/A
+This application uses the Bootsrap front-end framework.
 
 ## License
 
