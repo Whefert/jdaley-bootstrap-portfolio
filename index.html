@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jefferson Daley - Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- main logo / nav -->
+    <header>
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ms-auto">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1>Jefferson Daley</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link dropdown-toggle" href="#contact" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="https://drive.google.com/file/d/1xxOPFCdxYMYIBZ_B_CGt7kUvpy5uaIav/view?usp=sharing" tabindex="-1" aria-disabled="true">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero banner -->
+    <section class="hero-banner">
+      <div>
+        <!-- TODO: Add my image -->
+        <img  src="./images/jefferson_daley.jpg" alt="Jefferson Daley" />
+        <h2>My portfolio</h2>
+        <p></p>
+      </div>
+    </section>
+
+    <main class="page-wrapper">
+      <!-- about me -->
+      <section class="page-section" id="about">
+        <h2>
+          About<br />
+          Me
+        </h2>
+        <p class="introText">
+          Software developer with over 3 years experience building full-stack web and
+          mobile applications with a range of modern technologies. Front-end
+          technologies I am most familiar with include: HTML, CSS, JavaScript,
+          Angular and Kotlin. Backend technologies I am most familiar with
+          include: Node.js, PHP, MySQL, MongoDB, Google Firebase, and
+          Amazon Web Services (AWS).
+        </p>
+      </section>
+
+      <!-- portfolio container -->
+      <section class="page-section" id="work">
+        <h2>Work</h2>
+        <div class="gridContainer">
+          <div class="gridItem mainProject" >
+            <div class="projectImage">
+              <a href="https://github.com/Whefert/endhLibraryApp"><img src="./images/endh_online_library.jpg" alt="Enid & Daphne Henry Foundation Online Library" /></a>
+            </div>
+            <div class="content">
+              <h3 class="projectTitle">Enid & Daphne Henry Foundation Online Library</h3>
+              <p class="techUsed">
+                <strong>Tech Used</strong>:  MongoDB, Express, Angular, Node, Cloudinary
+              </p>
+              <p class="description">
+                <strong>Description</strong>: Online library allowing students to see and request rental of books being offered by the foundation. Web app also notifies admin users of rental requests and notifies students about approvals/rejections of their requests via email.
+              </p>
+              <p class="CTA">
+                <strong><a href="https://github.com/Whefert/endhLibraryApp">Learn More</a></strong>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                  <path
+                    d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
+          <div class="gridItem otherProject">
+            <div class="projectImage">
+              <a href="https://github.com/Whefert/UCC_IT_department_app"><img src="./images/it_department_mobile_app.jpg" alt="UCC IT Department Mobile App" /></a>
+            </div>
+            <div class="content">
+              <h3 class="projectTitle">IT Department Mobile App</h3>
+              <p class="techUsed">
+                <strong>Technologies Used</strong>: Kotlin, Google Firebase              
+              </p>
+              <p class="CTA">
+                <strong><a href="https://github.com/Whefert/UCC_IT_department_app">Learn More</a></strong>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                  <path
+                    d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
+          <div class="gridItem otherProject">
+            <div class="projectImage">
+              <a href="https://github.com/Whefert/queryHandlingSystem"><img src="./images/query_handling system.jpg" alt="Query Handling System" /></a>
+            </div>
+            <div class="content">
+              <h3 class="projectTitle">Query Handling System</h3>
+              <p class="techUsed">
+                <strong>Technologies Used</strong>: HTML, CSS, JavaScript, PHP, MySQL
+              </p>
+              <p class="CTA">
+                <strong><a href="https://github.com/Whefert/queryHandlingSystem">Learn More</a></strong>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                  <path
+                    d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
+          <div class="gridItem otherProject">
+            <div class="projectImage">
+              <a href="https://github.com/Whefert/javascriptCalculatorApp"><img src="./images/javascript_calculator.jpg" alt="JavaScript Calculator App" /></a>
+            </div>
+            <div class="content">
+              <h3 class="projectTitle">JavaScript Calculator App</h3>
+              <p class="techUsed">
+                <strong>Technologies Used</strong>: HTML, CSS, JavaScript
+              </p>
+              <p class="CTA">
+                <strong><a href="https://github.com/Whefert/javascriptCalculatorApp">Learn More</a></strong>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                  <path
+                    d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
+          <div class="gridItem otherProject">
+            <div class="projectImage">
+              <a href="https://github.com/Whefert/horiseon-website-refactor/"><img src="./images/horiseon_website_refactor.jpg" alt="Horiseon Website Refactor" /></a>
+            </div>
+            <div class="content">
+              <h3 class="projectTitle">Horiseon Website Refactor</h3>
+              <p class="techUsed">
+                <strong>Technologies Used</strong>: HTML, CSS, JavaScript
+              </p>
+              <p class="CTA">
+                <strong><a href="https://github.com/Whefert/horiseon-website-refactor/">Learn More</a></strong>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                  <path
+                    d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
+
+      </section>
+
+      <!-- contact -->
+      <section class="page-section contact" id="contact">
+        <h2>Contact <br />Me</h2>
+        <ul>
+          <li><a href="tel:123-456-7890">123-456-7890</a></li>
+          <li>
+            <a href="mailto:jeffersondaley@gmail.com"
+              >jeffersondaley@gmail.com</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/Whefert">GitHub</a>
+          </li>
+          <li><a href="https://www.linkedin.com/in/jefferson-daley-208755b3/">LinkedIn</a></li>
+        </ul>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
