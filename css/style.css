@@ -34,19 +34,19 @@ a {
   text-decoration: none;
   color: inherit;
 }
-header {
+header, .card {
   background-color: var(--secondary);
 }
 
-header h1 {
-  padding: 0px 10px 0px 50px;
+header h1, .hero-banner h2 {
   background-color: var(--primary);
-  margin: 10px 0;
-  color: white;
+
 }
 
-li {
-  display: inline;
+
+li, .list-group li {
+  border: none;
+  border-radius: 0px;
   border-bottom: 5px solid var(--primary);
   font-size: 1.3rem;
 }
@@ -63,11 +63,7 @@ li:hover {
   background-position: bottom;
 }
 
-.card {
-  background-color: var(--secondary);
-  flex-direction: row;
 
-}
 .mainProject{
   height: 300px;
 }
@@ -80,12 +76,6 @@ li:hover {
   margin-right: 50px;
 }
 
-.hero-banner h2 {
-  background-color: var(--primary);
-  margin-top: 20px;
-  padding: 0px 10px;
-}
-
 .hero-banner img {
   border-radius: 100%;
   width: 200px;
@@ -93,11 +83,6 @@ li:hover {
 
 .page-wrapper {
   margin: 20px 50px;
-}
-
-.page-section {
-  /* display: flex; */
-  margin-bottom: 20px;
 }
 
 .introText {
@@ -141,24 +126,7 @@ li:hover {
   transition: 0.5s ease all;
 }
 
-
-
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.mainProject .content {
-  padding: 20px;
-}
-.otherProject .content {
-  padding: 10px;
-}
-
 @media only screen and (max-width: 1280px) and (min-width: 768px) {
-  .gridContainer {
-    grid-template-rows: 320px 175px 175px;
-  }
   .techUsed {
     display: none;
   }
@@ -183,19 +151,13 @@ li:hover {
     flex-direction: column;
   }
 
-  header h1 {
-    max-width: 45%;
-    padding: 10px;
-    background-color: var(--primary);
-    margin: 10px 0;
-    color: white;
+ .card{
+    height: auto;
   }
 
-
-
-  .contact ul {
+  /* .contact ul {
     flex-direction: column;
-  }
+  } */
   .page-section h2 {
     border-right: 0px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.2);
