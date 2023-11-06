@@ -12,7 +12,7 @@ See screenshot of the site below.
 
 ### Acceptance Criteria
 
-- Use Bootstrap to recreate my [portfolio site](https://whefert.github.io/jdaley-portfolio/) with the following items:
+- Use Bootstrap to recreate my [portfolio site](https://whefert.github.io/jdaley-bootstrap-portfolio/) with the following items:
 
     - A Navigation bar with a navigation menu at the top including links that are applicable to my portfolio. Links should navigate to the appropriate sections.
 
