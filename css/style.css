@@ -44,7 +44,7 @@ header h1, .hero-banner h2 {
 }
 
 
-li, .list-group li {
+nav li, .contact .list-group li {
   border: none;
   border-radius: 0px;
   border-bottom: 5px solid var(--primary);
@@ -52,7 +52,7 @@ li, .list-group li {
 }
 
 /* TODO: Remove unecessary styles */
-li:hover {
+nav li:hover, .contact li:hover {
   border-bottom: 5px var(--tertiary) solid;
 }
 
@@ -72,22 +72,9 @@ li:hover {
   height: 150px;
 }
 
-.hero-banner div {
-  margin-right: 50px;
-}
-
 .hero-banner img {
   border-radius: 100%;
   width: 200px;
-}
-
-.page-wrapper {
-  margin: 20px 50px;
-}
-
-.introText {
-  overflow-wrap: break-word;
-  margin-left: 20px;
 }
 
 .card img {
@@ -103,10 +90,6 @@ li:hover {
   min-height: 150px;
 }
 
-.otherProject {
-  margin-top: 20px;
-}
-
 .projectImage {
   overflow: hidden;
 
@@ -115,10 +98,6 @@ li:hover {
   transform: scale(
     1.1
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.CTA svg {
-  margin-left: 5px;
 }
 
 .CTA:hover {
@@ -132,32 +111,10 @@ li:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-
-  li {
-    display: block;
-  }
-  nav li {
-    margin: 0px;
-  }
-  nav ul {
-    padding-left: 10px;
-  }
-
-  header {
-    justify-content: start;
-  }
-
-  .page-section {
-    flex-direction: column;
-  }
-
  .card{
     height: auto;
   }
 
-  /* .contact ul {
-    flex-direction: column;
-  } */
   .page-section h2 {
     border-right: 0px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.2);

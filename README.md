@@ -24,7 +24,7 @@ See screenshot of the site below.
 
     - An about / contact section.
     
-    - A footer section with contact information.
+    - A footer section.
 
     - All hyperlinks should have a hover effect.
 
