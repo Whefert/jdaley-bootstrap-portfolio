@@ -8,11 +8,11 @@ Here is the link to the deployed application: https://whefert.github.io/jdaley-p
 
 See screenshot of the site below.
 
-![Screenshot of Portfolio Website](https://github.com/Whefert/jdaley-portfolio/blob/main/images/final_site_screenshot.png)
+![Screenshot of Portfolio Website](https://github.com/Whefert/jdaley-bootstrap-portfolio/blob/main/images/final_site_screenshot.png)
 
 ### Acceptance Criteria
 
-- Use Bootstrap to recreate my [portfolio site](https://whefert.github.io/jdaley-bootstrap-portfolio/) with the following items:
+- Use Bootstrap to recreate my [portfolio site](https://whefert.github.io/jdaley-portfolio/) with the following items:
 
     - A Navigation bar with a navigation menu at the top including links that are applicable to my portfolio. Links should navigate to the appropriate sections.
 
