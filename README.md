@@ -2,7 +2,7 @@
 
 ## Description
 
-Portfolio website showcasing the web and mobile applications I've made so far which I am most proud of. The website includes images of and links to the GitHub repos for featured projects as well as my contact information for prospective employers to get in touch.
+Portfolio website leveraging the Boostrap front-end framework to showcase the web and mobile applications I've made so far which I am most proud of. The website includes images of and links to the GitHub repos for featured projects as well as my contact information for prospective employers to get in touch.
 
 Here is the link to the deployed application: https://whefert.github.io/jdaley-portfolio/
 
@@ -12,12 +12,25 @@ See screenshot of the site below.
 
 ### Acceptance Criteria
 
-- When the page is loaded, the page presents my name, a recent photo or avatar, and links to sections about me, my work, and how to contact me
-- When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-- When viewing the section about my work, the section contains titled images of my applications
-- When presented with the my first application, that application's image is larger in size than the others
-- When images of the applications are clicked then the user is taken to that deployed application
-- When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+- Use Bootstrap to recreate my [portfolio site](https://whefert.github.io/jdaley-portfolio/) with the following items:
+
+    - A Navigation bar with a navigation menu at the top including links that are applicable to my portfolio. Links should navigate to the appropriate sections.
+
+    - A hero section with a jumbotron featuring my picture and name.
+
+    - A work section displaying my work in a grid using bootstrap cards for each project. The description should give a brief overview of the work.
+
+    - A skills section listing the skills I expect to learn from the bootcamp.
+
+    - An about / contact section.
+    
+    - A footer section with contact information.
+
+    - All hyperlinks should have a hover effect.
+
+    - All buttons should display a box shadow upon hover.
+
+    - The Bootstrap solution should minimize use of media queries.
 
 ## Installation
 
